@@ -19,18 +19,18 @@ static make_helper(_2byte_esc);
 	
 /* 0x80 */
 make_group(group1_b,
-	inv, inv, inv, inv, 
-	inv, inv, inv, inv)
+	inv, inv, inv, inv,
+        inv, inv, inv, inv)
 
 /* 0x81 */
 make_group(group1_v,
-	inv, inv, inv, inv, 
-	inv, inv, inv, inv)
+	inv, inv, inv, inv,
+        inv, inv, inv, inv)
 
 /* 0x83 */
 make_group(group1_sx_v,
-	inv, inv, inv, inv, 
-	inv, inv, inv, inv)
+	inv, inv, inv, inv,
+        inv, inv, inv, inv)
 
 /* 0xc0 */
 make_group(group2_i_b,
@@ -64,13 +64,13 @@ make_group(group2_cl_v,
 
 /* 0xf6 */
 make_group(group3_b,
-	inv, inv, inv, inv, 
-	inv, inv, inv, inv)
+        inv, inv, inv, inv,
+        inv, inv, inv, inv)
 
 /* 0xf7 */
 make_group(group3_v,
-	inv, inv, inv, inv, 
-	inv, inv, inv, inv)
+	inv, inv, inv, inv,
+        inv, inv, inv, inv)
 
 /* 0xfe */
 make_group(group4,
@@ -79,17 +79,16 @@ make_group(group4,
 
 /* 0xff */
 make_group(group5,
-	inv, inv, inv, inv, 
-	inv, inv, inv, inv)
+	inv, inv, inv, inv,
+        inv, inv, inv, inv)
 
 make_group(group6,
 	inv, inv, inv, inv, 
 	inv, inv, inv, inv)
 
 make_group(group7,
-	inv, inv, inv, inv, 
+	inv, inv, inv, inv,
 	inv, inv, inv, inv)
-
 
 /* TODO: Add more instructions!!! */
 
